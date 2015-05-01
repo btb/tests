@@ -1,0 +1,4 @@
+language: cpp
+compiler: clang
+
+script: clang -Wall -Wextra -O2 c.cpp -o /dev/null -std=gnu++11
